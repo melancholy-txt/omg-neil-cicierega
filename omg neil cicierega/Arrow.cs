@@ -12,6 +12,7 @@ namespace omg_neil_cicierega
     {
         public float x;
         public float y;
+        public bool played = false;
 
         public Arrow(float x, float y)
         {

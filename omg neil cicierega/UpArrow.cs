@@ -18,7 +18,9 @@ namespace omg_neil_cicierega
         public override void Draw(Graphics g)
         {
             Image arrowImg = Image.FromFile("upArrow.png");
+            Image boom = Image.FromFile("boom.png");
             g.DrawImage(arrowImg, new PointF(x,y));
+
         }
 
         public override bool HandleInput(KeyEventArgs e)
